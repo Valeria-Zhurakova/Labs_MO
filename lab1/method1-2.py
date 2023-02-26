@@ -8,10 +8,10 @@ eps = 0.0001
 h = (b - a) / 4
 x_start = a
 f0 = x_start * math.exp(x_start)
-n = 1
+k = 1
 
 while 1:
-    n = n + 1
+    k = k + 1
     p5 = True
     x_res = x_start + h
     f1 = x_res * math.exp(x_res)
@@ -28,7 +28,8 @@ while 1:
             f0 = f1
             h = - h / 4
 
-print(n - 1)
-print(n)
-print(x_start)
-print(round(f0, 4))
+print("Метод поразрядного поиска")
+print(x_start, round(f0, 4))
+
+print(k - 1)
+print(k)
