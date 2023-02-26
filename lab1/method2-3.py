@@ -32,7 +32,6 @@ while True:
     if l <= eps:
         break
 
-
 print("Метод деления отрезка пополам")
 if f1 < f_m and f1 < f2:
     print(x1, round(f1, 4))

@@ -1,4 +1,5 @@
 # Метод 6
+
 import math
 
 
